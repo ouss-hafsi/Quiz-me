@@ -1,0 +1,88 @@
+@media screen and (max-width: 600px) {
+    .my-question {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 22px;
+        color: black;
+    }
+
+    .time-score-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+    }
+
+ }
+
+
+@media screen and (max-width: 570px) {
+    .landing-title {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 47px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .landing-form input {
+        width: 440px;
+        height: 50px;
+        border-radius: 20px;
+    }
+} 
+
+@media screen and (max-width: 460px) {
+    .landing-form input {
+        width: 317px;
+        height: 50px;
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .my-time {
+        font-family: 'Open Sans', sans-serif;
+        padding-right: 10px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #000753;
+    }
+
+    .my-score {
+        font-family: 'Open Sans', sans-serif;
+        padding-right: 10px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #000753;
+    }
+
+    .time-score-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+
+    #my-answers-1, #my-answers-2, #my-answers-3, #my-answers-4 {
+        border: 2px solid black;
+        width: 305px;
+        height: 59px;
+        /* border-radius: 20px; */
+        text-align: center;
+        color: black;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .landing-form input {
+        width: 300px;
+        height: 50px;
+        border-radius: 20px;
+    }
+
+
+}
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- start-game -->
+    <div id="overlay-start">
+        <div class="start">
+            <div>
+                <h1>Hello, thank you for visiting</h1>
+                <p>are you ready to start?</p>
+                <button id="start-game">Start</button>
+                <button class="cancel-start"><a href=home.html>cancel</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- time-out -->
+    <div id="overlay-time-out">
+        <div class="time-out">
+            <div>
+                <h1>oops you ran out of time</h1>
+                <p>do you want to play again?</p>
+                <button id="restart-game">Restart</button>
+                <button class="cancel-start"><a href=home.html>cancel</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- game-over -->
+    <div id="overlay-game-over">
+        <div class="game-over">
+            <div>
+                <h1>Game Over</h1>
+                <p id="game-over-result"></p>
+                <p>do you want to play again?</p>
+                <button id="restart-game-over">Restart</button>
+                <button class="cancel-start"><a href=home.html>cancel</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- winer -->
+    <div id="overlay-game-winner">
+        <div class="game-winner">
+            <div>
+                <h1>Winner</h1>
+                <p id="winner-text"></p>
+                <p>do you want to play again?</p>
+                <button id="restart-winner">Restart</button>
+                <button class="cancel-start"><a href=home.html>cancel</a></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="time-score-box">
+        <div class="score-timer">
+            <div>
+                <p id="score" class="my-score"></p>
+                <p id="count-down" class="my-time">Time </p>
+            </div>
+        </div>
+    </div>
+ 
+
+    <div id="display-q" class="display-question">
+         <p id="question-display" class="my-question"></p>
+    </div>
+
+
+<div class="display-answers">
+<div class="answer-choices">
+    <div>
+        <div id="my-answers-1"><p id="input-1"></p></div>
+        <div id="my-answers-2"><p id="input-2"></p></div>
+    </div>
+
+    <div>
+        <div id="my-answers-3"><p id="input-3"></p></div>
+        <div id="my-answers-4"><p id="input-4" ></p></div>
+    </div>
+</div>
+
+</div>
+<div class="button-answers">
+    <button id="next" class="button-next">Next</button>
+
+</div>
+
+   
+
+<script src="script-quiz.js"></script>    
+</body>
+</html>

@@ -1,0 +1,526 @@
+body {
+    margin: 0;
+    background-color:'white';
+}
+
+/*                    Landing                 */
+
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .landing-form {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+  }
+  
+  .landing-form input {
+    width: 550px;
+    height: 50px;
+    /* border-radius: 20px; */
+  }
+  
+  .landing-form button{
+      font-family: 'Open Sans', sans-serif;
+      /* border-radius: 31px; */
+      background-color: transparent;
+      border: 1px solid black;
+      color: black;
+      font-size: 28px;
+      padding: 8px;
+      transition: all 0.5s;
+      cursor: pointer;
+  }
+  
+  .landing-form button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .landing-form button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .landing-form button:hover span{
+    padding-right: 25px;
+  }
+  
+  .landing-form button:hover span:after{
+    opacity: 1;
+    right: 0;
+  }
+  
+  .landing-title{
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .landing-title span{
+    color: #ffffff;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 2px;
+  }
+
+
+  /*                         Home         */
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-user {
+font-family: 'Open Sans', sans-serif;
+font-weight: 200;
+font-size: 35px;
+font-weight: 700;
+color:black;
+text-align: center;
+}
+
+.choose-category {
+  text-align: center;
+  font-family: 'Open Sans';
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.home-parag {
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+color: black;
+max-width: 950px;
+text-align: center;
+ 
+}
+
+.container {
+margin: 0 auto;
+max-width:1300px;
+}
+
+.category {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+background-color: transparent;
+
+} 
+
+.category div {
+font-weight: 700;
+color:#000753;
+/* border-radius: 20px; */
+width: 300px;
+height: 250px;
+background-color: white;
+border: 2px solid black;
+}
+
+.category div:hover {
+border: none;
+background-color: black;
+/* border-radius: 20px; */
+color:white;
+width: 300px;
+height: 250px;
+}
+
+.category h1 {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Open Sans',sans-serif;
+font-weight: 500;
+height: 70%;
+cursor: pointer;
+
+} 
+
+
+
+/*                        Quiz page       */
+
+.time-score-box{
+display: flex;
+justify-content: center;
+align-items: center;
+height:25vh;
+}
+
+/* .score-timer {
+width: 500px;
+color:white;
+} */
+
+.score-timer div {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+border-radius: 20px;
+}
+
+.my-score {
+font-family: 'Open Sans', sans-serif;
+padding-right: 10px;
+font-size:38px;
+font-weight: 700;
+color:#000753;
+}
+
+.my-time {
+font-family: 'Open Sans', sans-serif;
+padding-right: 10px;
+font-size:38px;
+font-weight: 700;
+color: #000753;
+}
+
+.my-question {
+font-family: 'Open Sans';
+font-weight: 600;
+font-size: 30px;
+color:black;
+}
+
+.display-question {
+display: flex;
+justify-content: center;
+}
+
+.display-answers {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.answer-choices {
+  display:flex;
+  justify-content: center;
+   gap:20px;
+   flex-wrap: wrap;
+}
+
+.answer-choices div {
+  display: flex; 
+  flex-direction: column; 
+  gap: 20px;
+}
+
+#my-answers-1, #my-answers-2, #my-answers-3, #my-answers-4{
+  border: 2px solid black;
+  width: 370px;
+  height: 59px;
+  /* border-radius: 20px;  */
+  text-align: center;
+  color:black;
+  cursor: pointer;
+}
+
+/* #my-answers-2 {
+  border: 2px solid black;
+  width: 370px;
+  height: 59px;
+  /* border-radius: 20px;  */
+  /* text-align: center;
+  color:black;
+} */ 
+
+/* #my-answers-3 {
+  border: 2px solid white;
+  width: 370px;
+  height: 59px;
+  border-radius: 20px; 
+  text-align: center;
+  color:white;
+} */
+
+/* #my-answers-4 {
+  border: 2px solid white;
+  width: 370px;
+  height: 59px;
+  border-radius: 20px; 
+  text-align: center;
+  color:white;
+} */
+
+#my-answers-1, #my-answers-2, #my-answers-3, #my-answers-4 p {
+  font-family: 'Open sans';
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* #my-answers-2 p {
+  font-family: 'Open sans';
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#my-answers-3 p {
+  font-family: 'Open sans';
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#my-answers-4 p {
+  font-family: 'Open sans';
+  font-size: 18px;
+  cursor: pointer;
+} */
+
+/* #my-answers-1:hover, #my-answers-2:hover, #my-answers-3:hover, #my-answers-4:hover {
+  background-color: black;
+ color:white;
+} */
+
+
+
+
+
+.button-next {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 700;
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  color: #ffffff;
+  /* border: 2px solid #12C2FA; */
+  /* border-radius: 20px; */
+  border: none;
+  cursor: pointer;
+}
+
+/* .answer {
+font-family: 'Open Sans';
+font-size: 25px;
+font-weight: 600;
+} */
+
+.button-answers {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 20vh;
+}
+
+
+/*                         Overlay-start             */
+
+#overlay-start {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.start div {
+  background-color:white;
+  width: 600px;
+  height: 300px;
+  text-align: center; 
+  border-radius: 10px;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.start h1{
+  font-family: 'Open Sans';
+  font-size: 20px;
+  color: black;
+}
+
+.start p {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  color:#000753;
+}
+
+#start-game {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  /* border-radius: 10px; */
+  cursor: pointer;
+ 
+
+}
+
+.cancel-start {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  color: #000753;
+  border: 2px solid black;
+  /* border-radius: 10px; */
+  cursor: pointer;
+}
+
+.cancel-start a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*                         Overlay-time-out            */
+
+#overlay-time-out {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+.time-out {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.time-out div {
+  background-color:white;
+  width: 600px;
+  height: 300px;
+  text-align: center; 
+  border-radius: 10px;
+}
+
+#restart-game {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  /* border-radius: 10px; */
+  cursor: pointer;
+}
+
+
+/*                         Overlay-game-over            */
+
+#overlay-game-over {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+.game-over {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.game-over div {
+  background-color:white;
+  width: 600px;
+  height: 300px;
+  text-align: center; 
+  border-radius: 10px;
+}
+
+#restart-game-over {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  /* border-radius: 10px; */
+  cursor: pointer;
+}
+
+/*                         Overlay-game-winner            */
+
+#overlay-game-winner {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+.game-winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.game-winner div {
+  background-color:white;
+  width: 600px;
+  height: 300px;
+  text-align: center; 
+  border-radius: 10px;
+}
+
+#restart-winner {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  background-color:black;
+  color: white;
+  border: none;
+  /* border-radius: 10px; */
+  cursor: pointer;
+}
