@@ -1,6 +1,6 @@
 # Project Introduction
-
-My project is a Quiz game that displays questions from Jservice API. The player has to choose a question's categories for which he will have quiz. once the questionnary starts the player will have 2minutes to finish 10 questions and  each time he answers right the score will increase.
+QuizMe is a fun game that displays questions with answers from Jservice API. The player will have eight categories to choose from. 
+Once you decide on which field you want to be tested you will have 10 question and two minutes timer to finish the quiz.
 
 # Download Project
 
@@ -28,4 +28,4 @@ My project is a Quiz game that displays questions from Jservice API. The player 
 React | React Bootstrap | CSS | 
 
 # About
-Thank you for checking out my React project . I’m a Tunisian-American Software Engineer and Graphic Designer based in Los Angeles, California. I like helping others by sharing ideas and new creations. I’m always looking forward to working with new people and learning more skills. If you would like to see more of my work, please visit [my Behance profile](https://www.behance.net/oussamaben4273I) or visit [my Linkedin profile](https://www.linkedin.com/in/oussema-ben-hafsi-2211b5217/)
+Thank you for checking out my project . I’m a Tunisian-American Software Engineer and Graphic Designer based in Los Angeles, California. I like helping others by sharing ideas and new creations. I’m always looking forward to working with new people and learning more skills. If you would like to see more of my work, please visit [my Behance profile](https://www.behance.net/oussamaben4273I) or visit [my Linkedin profile](https://www.linkedin.com/in/oussema-ben-hafsi-2211b5217/)
